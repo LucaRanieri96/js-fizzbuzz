@@ -1,3 +1,10 @@
+h1 {
+    font-size: 120px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
 p { 
     height: 120px;
     min-width: 120px;
