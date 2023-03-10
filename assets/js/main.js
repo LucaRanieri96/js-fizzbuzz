@@ -26,21 +26,21 @@ for (let i = 1; i <= 100; i++) {
     if (i % 3 == 0 && i % 5 == 0) {
         console.log("FizzBuzz");
 
-        container.innerHTML = `<p>FizzBuzz</p>`
+        container.innerHTML += `<p>FizzBuzz</p>`
         // se il numero è divisibile solo per 3
       } else if (i % 3 == 0) {
         console.log("Fizz");
 
-        container.innerHTML = `<p>Fizz</p>`
+        container.innerHTML += `<p>Fizz</p>`
         // se il numero è divisibile solo per 5
       } else if (i % 5 == 0) {
         console.log("Buzz");
 
-        container.innerHTML = `<p>Buzz</p>`
+        container.innerHTML += `<p>Buzz</p>`
         // se non è divisibile ne per 3 ne per 5
       } else {
         console.log(i);
         
-        container.innerHTML = `<p>${i}</p>`
+        container.innerHTML += `<p>${i}</p>`
       }
 }
