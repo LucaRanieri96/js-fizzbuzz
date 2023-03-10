@@ -25,24 +25,24 @@ for (let i = 1; i <= 100; i++) {
   if (i % 3 == 0 && i % 5 == 0) {
     console.log("FizzBuzz");
     // scrivo in pagina
-    container.innerHTML += `<p id="bg_red">FizzBuzz</p>`;
+    container.innerHTML += `<p class="col" id="bg_red">FizzBuzz</p>`;
   }
   // se il numero è divisibile solo per 3
   else if (i % 3 == 0) {
     console.log("Fizz");
     // scrivo in pagina
-    container.innerHTML += `<p id="bg_green">Fizz</p>`;
+    container.innerHTML += `<p class="col" id="bg_green">Fizz</p>`;
   }
   // se il numero è divisibile solo per 5
   else if (i % 5 == 0) {
     console.log("Buzz");
     // scrivo in pagina
-    container.innerHTML += `<p id="bg_yellow">Buzz</p>`;
+    container.innerHTML += `<p class="col" id="bg_yellow">Buzz</p>`;
   }
   // se non è divisibile ne per 3 ne per 5
   else {
     console.log(i);
     // scrivo in pagina
-    container.innerHTML += `<p>${i}</p>`;
+    container.innerHTML += `<p class="col" id="bg_lightblue">${i}</p>`;
   }
 }

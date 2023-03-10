@@ -1,7 +1,10 @@
 p {
     height: 100px;
     min-width: 100px;
-    border: 1px solid black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #bg_red {
@@ -14,4 +17,8 @@ p {
 
 #bg_yellow {
     background-color: yellow;
+}
+
+#bg_lightblue {
+    background-color: rgb(16, 119, 209);
 }
