@@ -1,0 +1,17 @@
+p {
+    height: 100px;
+    min-width: 100px;
+    border: 1px solid black;
+}
+
+#bg_red {
+    background-color: red;
+}
+
+#bg_green {
+    background-color: green;
+}
+
+#bg_yellow {
+    background-color: yellow;
+}
